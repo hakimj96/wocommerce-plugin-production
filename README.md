@@ -26,7 +26,7 @@ BerryPay payment gateway plugin for WooCommerce. This plugin enable online payme
 5. It will display the plugin and press intall.
 6. Activate the plugin through the 'Plugins' screen in WordPress.
 7. Go to menu WooCommerce, settings, Checkout, BerryPay and fill in your "merchant_id" as "merchant_pub_key", api_key and secret_key. You can retrieve the merchant id, api_key and secret_key from BerryPay Dashboard at https://securepay.berrypay.com/ (login credentials will be provided upon successful merchant registration).
-8. The environment mode by default is sandbox. Upon successful integration, we will provide the production URL and credentials.
+8. The environment mode by default is Production. Money will be deducted from your bank account.
 9. Make sure the 'Enable this payment gateway' is ticked. Click on 'Save changes' button.
 10. In BerryPay Dashboard make sure you key in your return URL and callback URL as http://your_domain/check_berrypay_response finally press Save.
 
