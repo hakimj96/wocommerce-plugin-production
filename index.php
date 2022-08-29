@@ -1,5 +1,5 @@
 <?php
-
+/**
 Plugin Name: BerryPay
 Plugin URI: https://github.com/technicalbpm/wocommerce-plugin-production
 Description: Enable online payments using credit or debit cards and online banking.
@@ -8,6 +8,7 @@ Author: BerryPay
 Author URI: https://berrypay.com
 WC requires at least: 2.6.0
 WC tested up to: 4.4.1
+**/
 
 
 if ( ! defined( 'ABSPATH' ) ) {
